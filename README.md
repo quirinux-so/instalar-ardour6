@@ -5,7 +5,7 @@ Este programa sirve para instalar la versión más reciente del programa de grab
 ## Detalles adicionales
 Este instalador modifica el archivo /etc/security/limits.conf y descarga el ícono desde los repositorios de Quirinux. 
 ### Compatibilidad
-Probado con éxito en Debian 10.3, Quirinux, Devuan y Ethertics. 
+Probado con éxito en Debian 10.3, Quirinux, Devuan y Etertics. 
 ### Instrucciones
 sudo chmod 755 instalar-quirinux.sh </br>
 sudo ./instalar-quirinux.sh
