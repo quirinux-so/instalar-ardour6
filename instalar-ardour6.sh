@@ -12,18 +12,15 @@
 # https://github.com/quirinux-so/instalar-ardour6/blob/master/LICENCE
 
 # Creando carpeta para archivos temporales
-
 echo "# Creando directorios temporales..."; sleep 1s
 sudo mkdir -p /opt/tmp/ardour6-postinstall
 
 # Instalando dependencias del instalador:
-
 sudo apt-get update
 for paquetes_wget in wget zenity zenity-common; do sudo apt-get install -y $paquetes_wget; done
 sudo apt-get install -f
 
 # Generando el menú gráfico con Zenity:
-
 opc=$(zenity --width=350 --height=220 --title=Quirinux --entry --text="        
               Instalación del Ardour 6.0
               de Paul Davis y otros.
@@ -44,7 +41,6 @@ for paquetes_ardour in libboost-all-dev libasound2-dev libglib2.0-dev glibmm-2.4
 sudo apt-get install -f -y
 
 echo "# Descargando código fuente..."; sleep 1s
-sudo mkdir /opt/tmp/
 cd /opt/tmp/
 git clone git://git.ardour.org/ardour/ardour.git
 
