@@ -7,8 +7,8 @@ Este instalador modifica el archivo /etc/security/limits.conf y descarga el íco
 ### Compatibilidad
 Probado con éxito en Debian 10.3, Quirinux, Devuan y Ethertics. 
 ### Instrucciones
-sudo chmod 755 quirinux-kernel.sh </br>
-sudo ./quirinux-kernel.sh
+sudo chmod 755 instalar-quirinux.sh </br>
+sudo ./instalar-quirinux.sh
 #### Autores
 Charlie Martínez, haciendo uso de la libertad de distribución de la licencia GPL, ha programado este instalador gráfico pero no guarda relación con el desarrollo del software que instala (Ardour) ni con sus autores. Este instalador está liberado también bajo licencia GPLv3. 
 #### Avisos legales
