@@ -13,7 +13,8 @@
 
 # Creando carpeta para archivos temporales
 
-sudo mkdir /opt/tmp/
+echo "# Creando directorios temporales..."; sleep 1s
+sudo mkdir -p /opt/tmp/ardour6-postinstall
 
 # Instalando dependencias del instalador:
 
@@ -36,9 +37,6 @@ case $opc in
 "1") 
 
 (
-
-echo "# Creando directorio temporal..."; sleep 1s
-sudo mkdir /opt/tmp/ardour6-postinstall
 
 echo "# Instalando dependencias..."; sleep 1s
 sudo apt-get update
