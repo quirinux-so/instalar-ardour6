@@ -2,7 +2,9 @@
 Autor: Charlie Martínez ®
 ## Acerca de este repositorio
 Este programa sirve para instalar la versión más reciente del programa de grabación multitrack Ardour, de Paul Davis, David Robillard, Robin Gareus, Nick Mainsbridge, Colin Fletcher, Ben Loftis y Tim Mayberry. 
-Ardour 6 viene instalado por defecto en Quirinux 2.0 en sus ediciones Pro, i-Pro, Mini, General y Custom. El instalador aquí presentado automatiza la descarga e instalación del programa, desde su repositorio oficial. Proporciona una intefáz gráfica sencilla (GUI) generada mediante Zenity.
+Ardour 6 viene instalado por defecto en Quirinux 2.0 en sus ediciones Pro, i-Pro, Mini, General y Custom. 
+
+El instalador aquí presentado automatiza la descarga, compilación e instalación del programa, desde su repositorio oficial. Proporciona una intefáz gráfica sencilla (GUI) generada mediante Zenity.
 ## Detalles adicionales
 Este instalador modifica el archivo /etc/security/limits.conf y descarga el ícono desde los repositorios de Quirinux. 
 ### Compatibilidad
