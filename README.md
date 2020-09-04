@@ -5,7 +5,7 @@ Este programa sirve para instalar la versión más reciente del programa de grab
 ## Detalles adicionales
 Este instalador modifica el archivo /etc/security/limits.conf y descarga el ícono desde los repositorios de Quirinux. 
 ### Compatibilidad
-Probado con éxito en Debian 10.3, Quirinux, Devuan y Etertics. 
+Desarrollado para Quirinux GNU/Linux 2.0. Probado en Debian Buster, Devuan Beowulf, Quirinux 2.0, Etertics y Ubuntu 20.04. 
 ### Instrucciones
 sudo chmod 755 instalar-ardour6.sh
 sudo ./instalar-ardour6.sh
