@@ -1,15 +1,10 @@
-#!/bin/bash -x
 
-# instalar-ardour6.sh 
-
-# Instalador por Charlie Martínez ®
-
-# Sitio oficial: www.quirinux.org
-# Contacto directo: cmartinez@quirinux.org
-# https://github.com/quirinux-so
-
-# Licencia GPL Versión 3 
-# https://github.com/quirinux-so/instalar-ardour6/blob/master/LICENCE
+# !/bin/bash
+# Nombre:	instalar-ardour6.sh
+# Autor:	Charlie Martínez® <cmartinez@quirinux.org>
+# Licencia:	https://www.gnu.org/licenses/gpl-3.0.txt
+# Descripción:	Descarga código fuente de Ardour, lo compila y lo instala.
+# Versión:	1.00
 
 # Creando carpeta para archivos temporales
 echo "# Creando directorios temporales..."; sleep 1s
