@@ -1,5 +1,5 @@
+#!/bin/bash
 
-# !/bin/bash
 # Nombre:	instalar-ardour6.sh
 # Autor:	Charlie Martínez® <cmartinez@quirinux.org>
 # Licencia:	https://www.gnu.org/licenses/gpl-3.0.txt
